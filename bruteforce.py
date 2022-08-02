@@ -20,7 +20,6 @@ def calculate_profit(dataset, max_spend):
     for i in range(1, len(dataset) + 1):
         # Iterate through combinaison
         for comb in itertools.combinations(dataset, i):
-
             total_profit = 0
             total_cost = 0
             actions = []

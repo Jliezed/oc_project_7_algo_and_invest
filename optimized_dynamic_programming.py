@@ -23,7 +23,7 @@ profits = {action: profit/100 for (action, profit) in itertools.zip_longest(
     actions_names, actions_profits)}
 actions_names = [i for i, j in prices.items()]
 
-# Define Constants
+# Define Constant
 MAX_SPEND = 500
 
 

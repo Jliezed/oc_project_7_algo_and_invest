@@ -35,8 +35,8 @@ def calculate_profit(dataset, max_spend):
 
     sorted_combinaisons = sorted(all_combinaisons, key=lambda x: x[2], reverse=True)
 
-    return all_combinaisons, print(f"Liste d'actions: {sorted_combinaisons[0][0]} \n"
-                                   f"Coût : {sorted_combinaisons[0][1]}\n"
+    return all_combinaisons, print(f"List of Actions: {sorted_combinaisons[0][0]} \n"
+                                   f"Cost : {sorted_combinaisons[0][1]}\n"
                                    f"Profit: {sorted_combinaisons[0][2]}\n")
 
 

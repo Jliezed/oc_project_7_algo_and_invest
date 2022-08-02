@@ -10,7 +10,7 @@ original_dataset = pandas.read_csv("./data/data.csv", delimiter=",")
 # Convert the dataset to dict
 dataset = original_dataset.to_dict(orient="records")
 
-# Define Constants
+# Define Constant
 MAX_SPEND = 500
 
 

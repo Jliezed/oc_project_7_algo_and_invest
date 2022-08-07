@@ -2,10 +2,10 @@ import itertools
 import pandas
 import timeit
 from guppy import hpy
-import numpy as np
 
 # Read the dataset
-original_dataset = pandas.read_csv("./data/data.csv", delimiter=",")
+filename = "data.csv"
+original_dataset = pandas.read_csv("./data/" + filename, delimiter=",")
 
 # Convert the dataset to dict
 dataset = original_dataset.to_dict(orient="records")
@@ -14,12 +14,12 @@ dataset = original_dataset.to_dict(orient="records")
 MAX_SPEND = 500
 
 
-def calculate_profit(dataset, max_spend):
+def calculate_profit(data, max_spend):
     all_combinaisons = []
     # Iterate through dataset length
-    for i in range(1, len(dataset) + 1):
+    for i in range(1, len(data) + 1):
         # Iterate through combinaison
-        for comb in itertools.combinations(dataset, i):
+        for comb in itertools.combinations(data, i):
             total_profit = 0
             total_cost = 0
             actions = []
@@ -60,9 +60,9 @@ heap_status2 = heap.heap()
 print("Heap Size : ", heap_status2.size, " bytes\n")
 print(heap_status2)
 
-a = [i for i in range(1000)]
-b = "A"
-c = np.random.randint(1, 100, (1000,))
+
+profit_max = calculate_profit(dataset, MAX_SPEND)
+
 
 print("\nHeap Status After Creating Few Objects : ")
 heap_status3 = heap.heap()

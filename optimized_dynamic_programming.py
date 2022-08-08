@@ -5,7 +5,7 @@ import itertools
 import math
 
 # Read the dataset
-dataset_path = "./data/dataset2_Python+P7.csv"
+dataset_path = "./data/data.csv"
 original_dataset = pandas.read_csv(dataset_path, delimiter=",")
 
 # Convert the dataset to list
@@ -64,7 +64,7 @@ def calculate_profit(actions_names, actions_profits, actions_prices, max_spend):
                 # Push value in memo
                 memo[id_item][unit_spend] = max_value
 
-            # If item weight greater than kg
+            # If action price greater than unit capacity
             else:
                 # Define max value of prev item in memo
                 max_value_prev_item_memo = memo[id_item - 1][unit_spend]

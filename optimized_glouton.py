@@ -54,20 +54,24 @@ data_sort_by_profit_for_1 = dataset.sort_values(by=["PROFIT_FOR_1"],
 def calculateProfit(dataset, max_spend=500):
     total_action_cost = 0
     total_profit = 0
+    list_actions = []
 
-    for index, (action, profit) in enumerate(zip(dataset["COST"],
+    for index, (name, cost, profit) in enumerate(zip(dataset["ACTION"], dataset["COST"],
                                dataset["PROFIT_VOLUME"])):
 
         # Add cost & profit to total
-        total_action_cost += action
+        total_action_cost += cost
         total_profit += profit
+        list_actions.append(name)
 
         # Check if total cost over max spend
         if total_action_cost > max_spend:
-            total_action_cost -= action
+            total_action_cost -= cost
             total_profit -= profit
+            list_actions.remove(name)
 
-    return print(f"Total Cost is: {total_action_cost} "
+    return print(f"List of actions: {sorted(list_actions, )}\n"
+                 f"Total Cost is: {total_action_cost}\n"
                  f"for a profit of"
                  f" {total_profit}")
 

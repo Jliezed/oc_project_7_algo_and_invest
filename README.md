@@ -1,1 +1,0 @@
-# oc_project_7_algo_and_invest

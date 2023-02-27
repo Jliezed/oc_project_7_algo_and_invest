@@ -10,13 +10,13 @@
 -->
 
 [![oc-project-shield][oc-project-shield]][oc-project-url]
-[![algo-shield][algo-shield]][oc-project-url]
-[![big-o-shield][big-o-shield]][oc-project-url]
-[![finance-shield][finance-shield]][oc-project-url]
-[![brute-force-shield][brute-force-shield]][oc-project-url]
-[![greedy-shield][greedy-shield]][oc-project-url]
-[![dynamic-programming-shield][dynamic-programming-shield]][oc-project-url]
-[![knap-sack-shield][knap-sack-shield]][oc-project-url]
+[![algo-shield][algo-shield]][algo-url]
+[![big-o-shield][big-o-shield]][big-o-url]
+[![finance-shield][finance-shield]][finance-url]
+[![brute-force-shield][brute-force-shield]][brute-force-url]
+[![greedy-shield][greedy-shield]][greedy-url]
+[![dynamic-programming-shield][dynamic-programming-shield]][dynamic-programming-url]
+[![knap-sack-shield][knap-sack-shield]][knap-sack-url]
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -151,12 +151,25 @@ Run a script
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [oc-project-shield]: https://img.shields.io/badge/OPENCLASSROOMS-PROJECT-blueviolet?style=for-the-badge
-[topic-algo-shield]: https://img.shields.io/badge/TOPICS-ALGORITHMS-blue?style=for-the-badge
-[algo-shield]: https://img.shields.io/badge/-ALGORITHMS-blue?style=for-the-badge
-[big-o-shield]: https://img.shields.io/badge/-BIG%20O-blue?style=for-the-badge
-[finance-shield]: https://img.shields.io/badge/-FINANCE-blue?style=for-the-badge
-[brute-force-shield]: https://img.shields.io/badge/-BRUTE%20FORCE-blue?style=for-the-badge
-[greedy-shield]: https://img.shields.io/badge/-GREEDY-blue?style=for-the-badge
-[dynamic-programming-shield]: https://img.shields.io/badge/-DYNAMIC%20PROGRAMMING-blue?style=for-the-badge
-[knap-sack-shield]: https://img.shields.io/badge/-KNAPSACK-blue?style=for-the-badge
 [oc-project-url]: https://openclassrooms.com/fr/paths/518-developpeur-dapplication-python
+
+[algo-shield]: https://img.shields.io/badge/-ALGORITHMS-blue?style=for-the-badge
+[algo-url]: https://en.wikipedia.org/wiki/Algorithm
+
+[big-o-shield]: https://img.shields.io/badge/-BIG%20O-blue?style=for-the-badge
+[big-o-url]: https://en.wikipedia.org/wiki/Big_O_notation
+
+[finance-shield]: https://img.shields.io/badge/-FINANCE-blue?style=for-the-badge
+[finance-url]: https://en.wikipedia.org/wiki/Finance
+
+[brute-force-shield]: https://img.shields.io/badge/-BRUTE%20FORCE-blue?style=for-the-badge
+[brute-force-url]: https://en.wikipedia.org/wiki/Brute-force_search
+
+[greedy-shield]: https://img.shields.io/badge/-GREEDY-blue?style=for-the-badge
+[greedy-url]: https://en.wikipedia.org/wiki/Greedy_algorithm
+
+[dynamic-programming-shield]: https://img.shields.io/badge/-DYNAMIC%20PROGRAMMING-blue?style=for-the-badge
+[dynamic-programming-url]: https://en.wikipedia.org/wiki/Dynamic_programming
+
+[knap-sack-shield]: https://img.shields.io/badge/-KNAPSACK-blue?style=for-the-badge
+[knap-sack-url]: https://en.wikipedia.org/wiki/Knapsack_problem

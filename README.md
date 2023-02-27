@@ -21,7 +21,7 @@
 <br />
 <div align="center">
 
-<h3 align="center">OC - PROJECT N°7 - AlgoInvest & Trade - Solve problems using algorithms </h3>
+<h1 align="center">OC - PROJECT N°7 - AlgoInvest & Trade - Solve problems using algorithms </h1>
 
   <p align="center">
 AlgoInvest&Trade, a financial company specializing in investment. The company seeks to optimize its investment strategies using algorithms, in order to generate more profits for its clients.    <br />
@@ -30,7 +30,8 @@ AlgoInvest&Trade, a financial company specializing in investment. The company se
 </div>
 
 
-
+<img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
+<a href="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"><small>By Markus Spiske</small></a>
 
 <!-- ABOUT THE PROJECT -->
 
